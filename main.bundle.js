@@ -34,7 +34,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div class=\"container\">\n  <div class=\"name\">My name is : {{ gender ? male : female}}</div>\n\n  <div class=\"actions\">\n  <button (click)=\"gender=true\" [disabled]=\"gender\">Male</button>\n  <button (click)=\"gender=false\" [disabled]=\"!gender\">Female</button>\n  </div>\n\n  <div class=\"images\">\n    <img [hidden]= \"!gender\" src=\"/assets/male.jpg\" alt=\"Male\" />\n    <img [hidden]= \"gender\"src=\"/assets/female.jpg\" alt=\"Female\" />\n  </div>\n</div>\n\n\n\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div class=\"container\">\n  <div class=\"name\">My name is : {{ gender ? male : female}}</div>\n\n  <div class=\"actions\">\n  <button (click)=\"gender=true\" [disabled]=\"gender\">Male</button>\n  <button (click)=\"gender=false\" [disabled]=\"!gender\">Female</button>\n  </div>\n\n  <div class=\"images\">\n    <img [hidden]= \"!gender\" src=\"https://github.com/janasathya/Hideshow1/blob/master/assets/male.jpg\" alt=\"Male\" />\n    <img [hidden]= \"gender\"src=\"https://github.com/janasathya/Hideshow1/blob/master/assets/female.jpg\" alt=\"Female\" />\n  </div>\n</div>\n\n\n\n"
 
 /***/ }),
 
